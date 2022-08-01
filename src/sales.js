@@ -9,7 +9,7 @@ export async function createDOM(current=1) {
 	provokeLogin(main_container, "Please Log In with your NEAR Wallet");
 	
 	let container=document.createElement("div")
-	container.innerHTML=`<h1>Available Sales</h1>
+	container.innerHTML=`<h1>NFTs Available For Sale</h1>
 						<div id='sales_container'></div>`
 	container.id='sales';
 	container.classList.add('page_style')
